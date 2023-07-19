@@ -39,8 +39,8 @@ export default function Home() {
       <div className='grid grid-cols-3 gap-4 py-10 opacity-80'>
 
         <div className="py-10 bg-gradient-to-r from-zeus-600 to-zeus-500 rounded-r-lg">
-          <figure class="relative w-36 h-36 mx-auto transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0">
-              <img class="rounded-full mx-auto" src="/me.jpeg"></img>
+          <figure className="relative w-36 h-36 mx-auto transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0">
+              <img className="rounded-full mx-auto" src="/me.jpeg"></img>
           </figure>
 
           <div className='pt-3 text-2xl text-center text-zeus-50'>Gustavo Garcia Tellez</div>
@@ -155,7 +155,7 @@ export default function Home() {
 
             <div className='px-6 grid grid-cols-4'>
               <div className='col-start-1 col-span-2'><p>Uso de Github</p></div>
-              <p className='col-start-4 text-end'>Competente</p>
+              <p className='col-start-4 text-end'>Principiante</p>
             </div>
 
             <div className='divider w-2/3 mx-auto'></div>
